@@ -804,7 +804,7 @@ right değişkeni sol kolunuzun omzunuza yakınlık oranını döndürür.
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/body.gif"><br>
+  <img src="https://drive.google.com/file/d/1bfAGxIgeRFLNEzfeWnc9We2ZIwgc9XtN/view"><br>
 </div>
 
 <br>
