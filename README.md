@@ -1184,8 +1184,6 @@ while True:
 
 ## Modüllerin birlikte kullanımlarının anlatımı için:
 
-[YouTube](https://www.youtube.com/channel/UCZwR4LvkgdLl-T0cAf19b7A){target="_blank"}
-
 <a href="https://www.youtube.com/channel/UCZwR4LvkgdLl-T0cAf19b7A" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="YouTube Logo" width="150" height="100">
 </a>
