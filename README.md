@@ -125,7 +125,7 @@ Terminal Çıktısı
 Buton bağlantıları aşağıdaki gibidir.
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/button_pin1.png"><br>
+  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/button_pin1.png"><br>
 </div>
 
 #### Led Matrix Kontrollü
