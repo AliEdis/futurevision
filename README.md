@@ -437,7 +437,7 @@ Finger List:  [0, 0, 0, 0, 0] Hand Status:  False
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/default_hand_detection.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/default_hand_detection.gif?raw=true"><br>
 </div>
 
 <br>
