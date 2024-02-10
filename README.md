@@ -457,7 +457,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/custom_hand_detection.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/custom_hand_detection.gif"><br>
 </div>
 
 <br>
@@ -539,7 +539,7 @@ img, emotion,th=vision.detect_emotion(img,threshold=0.040)
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/emotion_default1.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/emotion_default1.gif"><br>
 </div>
 
 <br>
@@ -559,7 +559,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/custom_emotion2.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/custom_emotion2.gif"><br>
 </div>
 
 <br>
@@ -609,7 +609,7 @@ Terminal Çıktısı
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/count_faces.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/count_faces.gif"><br>
 </div>
 
 <br>
@@ -662,7 +662,7 @@ img,name,list=vision.detect_colors(img,threshold=500)
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/color.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/color.gif"><br>
 </div>
 
 <br>
@@ -683,7 +683,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/custom_color.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/custom_color.gif"><br>
 </div>
 
 <br>
@@ -745,7 +745,7 @@ img,EAR,status,time=vision.detect_blink(img,threshold=0.20)
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/eye_blink.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/eye_blink.gif"><br>
 </div>
 
 <br>
@@ -804,7 +804,7 @@ right değişkeni sol kolunuzun omzunuza yakınlık oranını döndürür.
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/body.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/body.gif"><br>
 </div>
 
 <br>
@@ -851,7 +851,7 @@ person
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/object.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/object.gif"><br>
 </div>
 
 <br>
@@ -888,7 +888,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/face_rec.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/face_rec.gif"><br>
 </div>
 
 Çizimi devre dışı bırakma
@@ -1067,7 +1067,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/flash_hwc.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/flash_hwc.gif"><br>
 </div>
 
 ##### Ekran Parlaklığı Kontrollü
@@ -1083,7 +1083,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/sb_hwc.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/sb_hwc.gif"><br>
 </div>
 
 ##### Ses Şiddeti Kontrollü
@@ -1099,7 +1099,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/si_hwc.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/si_hwc.gif"><br>
 </div>
 
 #### CwH
@@ -1122,7 +1122,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/cwh_data.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/cwh_data.gif"><br>
 </div>
 
 #### LEDs
@@ -1146,13 +1146,13 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/leds_data.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/leds_data.gif"><br>
 </div>
 
 **Change Color**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/colored_leds_data.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/colored_leds_data.gif"><br>
 </div>
 
 #### Read Data
@@ -1166,7 +1166,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/read_data.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/read_data.gif"><br>
 </div>
 
 #### Send Data
@@ -1179,7 +1179,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/send_data.gif"><br>
+  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/send_data.gif"><br>
 </div>
 
 ## Modüllerin birlikte kullanımlarının anlatımı için:
