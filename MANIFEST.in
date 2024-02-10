@@ -1,0 +1,5 @@
+include futurevision/*.dat
+include futurevision/*.caffemodel
+include futurevision/*.txt
+include README.md
+include LICENSE
