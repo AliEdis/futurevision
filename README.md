@@ -38,9 +38,9 @@ Klasikleşmiş robotik eğitiminin dışına çıkarak robotik eğitiminde çocu
 
 <h3><strong>Arduino</strong></h3>
 
-future vision kütüphanesinin arduino uno kartınızla doğru çalışabilmesi için bu [FutureVision-Arduino.ino](https://github.com/AliEdis/futurevision/blob/main/FutureVision-Arduino/FutureVision-Arduino.ino) kodunu arduino uno kartınıza yüklemeniz gerekmektedir.
+**Future Vision** kütüphanesinin Arduino Uno kartınızla doğru çalışabilmesi için [FutureVision-Arduino.ino](https://github.com/AliEdis/futurevision/blob/main/FutureVision-Arduino/FutureVision-Arduino.ino) kodunu Arduino Uno kartınıza yüklemeniz gerekmektedir.
 
-13, 12 ve 11 pinleri led matrixe ayrılmıştır 10, 9, 8 pinleri rgb lede ayrılmıştır. Sadece 7, 6, 5, 4, 3, 2 pinlerini dijital çıkış olarak kullabilirsiniz
+13, 12 ve 11 pinleri LED matrise ayrılmıştır, 10, 9, 8 pinleri RGB LED'e ayrılmıştır. Sadece 7, 6, 5, 4, 3, 2 pinlerini dijital çıkış olarak kullanabilirsiniz.
 
 #### Led açma ve kapatma
 
@@ -52,7 +52,7 @@ uno.wait(1)
 uno.off(pin=7)
 ```
 
-Led bağlantıları aşağadaki gibidir
+LED bağlantıları aşağıdaki gibidir.
 
 <div align="center">
   <img src="/Users/ali/Desktop/futurevision/README-IMAGE/led1.png"><br>
@@ -60,18 +60,19 @@ Led bağlantıları aşağadaki gibidir
 
 #### RGB Led Kontrollü
 
-RGB Ledde Gösterebileceğiniz renkler
+RGB LED'de gösterebileceğiniz renkler:
 
-1. Red 🔴
-2. Yellow 🟡
-3. Green 🟢
-4. Blue 🔵
-5. Purple 🟣
-6. White ⚪️
-7. Light Blue 🩵
-8. Off veya clear
+1. Kırmızı 🔴
+2. Sarı 🟡
+3. Yeşil 🟢
+4. Mavi 🔵
+5. Mor 🟣
+6. Beyaz ⚪️
+7. Açık Mavi 🩵
 
-RGB ledin Pin Düzeni R:10 G:9 B:8
+Bu parametrelerden birini girerek RGB ledinizi kapatabilirsiniz: clear & off
+
+RGB LED'in pin düzeni: R:10 G:9 B:8
 
 ```python
 from futurevision import arduino
@@ -92,7 +93,7 @@ uno.rgb_led("clear")
 uno.wait(1)
 ```
 
-RGB Led şekli aşağadaki gibidir
+RGB LED bağlantıları aşağıdaki gibidir.
 
 <div align="center">
   <img src="/Users/ali/Desktop/futurevision/README-IMAGE/rgb_led_pin.png"><br>
@@ -100,9 +101,7 @@ RGB Led şekli aşağadaki gibidir
 
 #### Buton Değeri Okuma
 
-Butonların Değerleri Sadece Analog Pinlerden Okunacak şekilde ayarlanmıştır.
-Döndürülen Buton Değeri {PIN} olarak verilecektir.
-Örneğin A0 ve A3 pinlerine bağlı iki butonumuzun olduğunu düşünelim 3 defa A3 pinine bağlı butona bastığımızda ve iki defa A0 pinindeki butona bastığımızda terminal çıktısı aşağıdaki gibi olacaktır.
+Butonların değerleri sadece analog pinlerden okunacak şekilde ayarlanmıştır. Döndürülen buton değeri {PIN} olarak verilecektir. Örneğin, A0 ve A3 pinlerine bağlı iki butonumuzun olduğunu düşünelim. A3 pinine üç kez bastığımızda ve A0 pinindeki butona iki kez bastığımızda terminal çıktısı aşağıdaki gibi olacaktır.
 
 ```python
 from futurevision import arduino
@@ -123,7 +122,7 @@ Terminal Çıktısı
 0
 ```
 
-Buton bağlantıları aşağadaki gibidir
+Buton bağlantıları aşağıdaki gibidir.
 
 <div align="center">
   <img src="/Users/ali/Desktop/futurevision/README-IMAGE/button_pin1.png"><br>
@@ -131,16 +130,21 @@ Buton bağlantıları aşağadaki gibidir
 
 #### Led Matrix Kontrollü
 
-Led Matrixin Pin Düzeni DIN:13 CS:12 CLK:11
-Led Matrixte istediğiniz karakterleri gösterebilirsiniz karakter ve şekil listesi şu şekildedir
+Led Matrixin Pin Düzeni: DIN:13, CS:12, CLK:11
+
+Led Matrixte istediğiniz karakterleri gösterebilirsiniz. Karakter ve şekil listesi şu şekildedir:
 
 A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
-a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z
-1, 2, 3, 4, 5, 6, 7, 8, 9, 0
-+, -, *, /, %, =, up, down, right, left, happy, unhappy, heart
-Bu komutlardan birini girerek led matrixinizi kapatabilirsiniz clear & off
 
-Led Matrix default olarak dikey çalışacak şekilde ayarlanmıştır bunu değiştirmek için direction parametresini 0 olarak değiştirebilirsiniz
+a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z
+
+1, 2, 3, 4, 5, 6, 7, 8, 9, 0
+
++, -, *, /, %, =, up, down, right, left, happy, unhappy, heart
+
+Bu komutlardan birini girerek led matrixinizi kapatabilirsiniz: clear & off
+
+Led Matrix varsayılan olarak dikey çalışacak şekilde ayarlanmıştır. Bunun değiştirmek için direction parametresini 0 olarak değiştirebilirsiniz.
 
 Örnek: uno.show_led_matrix("A",0)
 
@@ -175,7 +179,7 @@ for i in sign_list:
   uno.show_led_matrix("clear")
 ```
 
-Led Matrix bağlantıları aşağadaki gibidir
+Led Matrix bağlantıları aşağadaki gibidir.
 
 <div align="center">
   <img src="/Users/ali/Desktop/futurevision/README-IMAGE/led_matrix1.png"><br>
@@ -195,16 +199,17 @@ rpi.off(14)
 
 #### RGB Led Kontrollü
 
-RGB Ledde Gösterebileceğiniz renkler
+RGB LED'de gösterebileceğiniz renkler:
 
-1. Red 🔴
-2. Yellow 🟡
-3. Green 🟢
-4. Blue 🔵
-5. Purple 🟣
-6. White ⚪️
-7. Light Blue 🩵
-8. Off veya clear
+1. Kırmızı 🔴
+2. Sarı 🟡
+3. Yeşil 🟢
+4. Mavi 🔵
+5. Mor 🟣
+6. Beyaz ⚪️
+7. Açık Mavi 🩵
+
+Bu parametrelerden birini girerek RGB ledinizi kapatabilirsiniz: clear & off
 
 ```python
 from futurevision import raspberrypi
@@ -229,7 +234,7 @@ rpi.wait(1)
 
 #### Buton Değeri Okuma
 
-Buton PULL UP olarak ayarlanmıştr
+Buton PULL UP olarak ayarlanmıştır.
 
 ```python
 from futurevision import raspberrypi
@@ -241,14 +246,14 @@ while True:
     rpi.wait(0.1)
 ```
 
-Terminal çıktısı
+Terminal Çıktısı
 
 ```sh
 >>> %Run test.py
 Button Pressed
 ```
 
-#### Sense Hat Led Matrix Harf veya Sayı Gösterme
+#### Sense HAT LED Matrisinde Harf veya Sayı Gösterme
 
 ```python
 from futurevision import raspberrypi
@@ -262,7 +267,7 @@ rpi.clear()
 
 ##### Yazı Rengi ve Arka Plan Rengi Değiştirme
 
-Sense hat led matrixinde seçebileceğiniz renklerin listesi:
+Sense HAT LED matrisinde seçebileceğiniz renklerin listesi:
 
 None
 White
@@ -287,7 +292,7 @@ rpi.wait(1)
 rpi.clear()
 ```
 
-#### Sense Hat Led Matrix Mesaj Gösterme
+#### Sense HAT LED Matrisinde Mesaj Gösterme
 
 ```python
 from futurevision import raspberrypi
@@ -295,7 +300,7 @@ rpi=raspberrypi.RaspberryPi(sense_hat=True)
 rpi.show_message("Future Vision")
 ```
 
-##### Sense Hat Mesaj Gösterilme Hızı Değiştirme
+##### Sense Hat Mesaj Gösterim Hızı Değiştirme
 
 ```python
 from futurevision import raspberrypi
@@ -303,7 +308,7 @@ rpi=raspberrypi.RaspberryPi(sense_hat=True)
 rpi.show_message("Future Vision",scroll_speed=0.2)
 ```
 
-#### Sense Hat Led Matrix Boyama
+#### Sense Hat Led Matris Boyama
 
 ```python
 from futurevision import raspberrypi
@@ -313,7 +318,7 @@ rpi.wait(1)
 rpi.clear()
 ```
 
-#### Sense Hat Led Matrix İşaret Gösterme
+#### Sense Hat Led Matris İşaret Gösterme
 
 Gösterebileceğiniz işaretler up, down, right, left, happy, unhappy, heart
 
@@ -419,11 +424,11 @@ while True:
     cv2.waitKey(1)
 ```
 
-Terminal Çıktısı
+fingers değişkeni, kapalı olan parmaklar için 0 değeri döndürür, açık olan parmaklar için 1 değeri döndüren bir liste verir.
 
-Kapalı olan parmaklar için 0 değeri döner açık olan parmaklar için 1 değeri döndürür
-Eğer bütün parmaklar açıksa status True döndürür
-Eğer bütün parmaklar kapalıysa status False döndürür
+status değişkeni ise, eğer bütün parmaklar açıksa True değerini döndürür, eğer bütün parmaklar kapalıysa False değerini döndürür.
+
+Terminal Çıktısı
 
 ```sh
 >>> %Run test.py
@@ -437,7 +442,7 @@ Finger List:  [0, 0, 0, 0, 0] Hand Status:  False
 
 <br>
 
-##### El çiziminin Rengini değiştirme
+##### El Çiziminin Rengini Değiştirme
 
 ```python
 from futurevision import vision
@@ -457,7 +462,7 @@ while True:
 
 <br>
 
-##### El çizimini Devredışı Bırakma
+##### El Çizimini Devredışı Bırakma
 
 ```python
 from futurevision import vision
@@ -473,7 +478,7 @@ while True:
 
 ##### İşaret dili oluşturma
 
-Listedeki indexlerin temsil ettiği parmaklar aşağıdaki resimdeki gibidir
+Listedeki indexlerin temsil ettiği parmaklar aşağıdaki resimdeki gibidir.
 
 <div align="center">
   <img style="width:300px;" src="/Users/ali/Desktop/futurevision/README-IMAGE/fingers_numbers.png"><br>
@@ -486,13 +491,13 @@ vision=vision.Vision()
 cap=cv2.VideoCapture(0)
 while True:
         _,img=cap.read()
-        img,list,status=vision.detect_hand(img)
-        if len(list) > 0:
-               if(list==[0,0,0,0,0]):
+        img,fingers,status=vision.detect_hand(img)
+        if len(fingers) > 0:
+               if(fingers==[0,0,0,0,0]):
                       print("off")
-               if(list==[0,0,0,0,1]):
+               if(fingers==[0,0,0,0,1]):
                       print("right")
-               if(list==[1,1,0,0,0]):
+               if(fingers==[1,1,0,0,0]):
                       print("left")
         cv2.imshow("Future Vision",img)
         cv2.waitKey(1)
@@ -513,6 +518,9 @@ while True:
     cv2.waitKey(1)
 ```
 
+emotion değişkeni mutluluk durumuna göre unhappy veya happy döndürür.
+th değişkeni mutluluk oranını döndürür.
+
 Terminal Çıktısı
 
 ```sh
@@ -522,13 +530,21 @@ unhappy 0.025
 happy 0.045
 ```
 
+Mutluluk algılama eşiği 0.035 olarak belirlenmiştir Tercih ve ihtiyaçlarınıza göre mutluluk algılama eşiğinizi değiştirebilirsiniz
+
+Mutluluk Eşiği Değiştirme
+
+```python
+img, emotion,th=vision.detect_emotion(img,threshold=0.040)
+```
+
 <div align="center">
   <img src="/Users/ali/Desktop/futurevision/README-IMAGE/emotion_default1.gif"><br>
 </div>
 
 <br>
 
-##### Yüz ve Yazının Rengini değiştirme
+##### Yüz Çizimi ve Yazının Rengini Değiştirme
 
 ```python
 from futurevision import vision
@@ -548,7 +564,7 @@ while True:
 
 <br>
 
-##### Yüz Çizimini Devre dışı bırakma
+##### Yüz Çizimini Devre Dışı Bırakma
 
 ```python
 from futurevision import vision
@@ -577,6 +593,8 @@ while True:
     cv2.waitKey(1)
 ```
 
+count değişkeni kaç adet yüz olduğunu döndürür.
+
 Terminal Çıktısı
 
 ```sh
@@ -596,7 +614,7 @@ Terminal Çıktısı
 
 <br>
 
-##### Anlık Yüz Sayaçı Çizimini Devre dışı bırakma
+##### Anlık Yüz Sayaçı Çizimini Devre Dışı Bırakma
 
 ```python
 from futurevision import vision
@@ -615,8 +633,6 @@ while True:
 
 Tanıyabildiği renkler: Kırmızı, Yeşil, Mavi
 
-Threshold değeri default olarak 1000 ayarlanmıştır ihtiyacınıza göre bu değeri düşürebilir yada yükseltebilirsiniz
-
 ```python
 from futurevision import vision
 import cv2
@@ -630,10 +646,19 @@ while True:
     cv2.waitKey(1)
 ```
 
+name değişkeni tespit ettiğini rengin ismini döndürür.
+list değişkeni tespit edilen rengin RGB oranlarını R G B sırası ile döndürür.
+
 ```sh
 blue [844.5, 415.5, 173812.0]
 red [600.5, 311.0, 530.5]
 green [0, 772.0, 0]
+```
+
+Threshold değeri varsayılan olarak 1000 olarak ayarlanmıştır. İhtiyacınıza göre bu değeri düşürebilir veya yükseltebilirsiniz.
+
+```python
+img,name,list=vision.detect_colors(img,threshold=500)
 ```
 
 <div align="center">
@@ -642,7 +667,7 @@ green [0, 772.0, 0]
 
 <br>
 
-##### Çizim rengini değiştirme
+##### Çizim Rengini Değiştirme
 
 ```python
 from futurevision import vision
@@ -680,7 +705,7 @@ while True:
 
 #### Göz kırpma algılama
 
-Yüz tanımanın çalışabilmesi için yüz tanıma modelini indirmelisiniz [shape_predictor_68_face_landmarks.dat](https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2)
+Yüz tanımanın çalışabilmesi için yüz tanıma modelini indirmelisiniz.[shape_predictor_68_face_landmarks.dat](https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2)
 
 ```python
 from futurevision import vision
@@ -697,6 +722,10 @@ while True:
     cv2.waitKey(1)
 ```
 
+EAR değişkeni gözün kapalılık oranını döndürür.
+status değişkeni gözün kapalı ve açık olma durumunu döndürür.
+time değişkeni gözün kaç saniye kapalı olduğunu döndürür.
+
 ```sh
 0.2 False None
 0.21 False None
@@ -707,6 +736,12 @@ while True:
 0.23 False None
 0.23 False None
 0.21 False None
+```
+
+Threshold değeri varsayılan olarak 0.15 olarak ayarlanmıştır. İhtiyacınıza göre bu değeri düşürebilir veya yükseltebilirsiniz.
+
+```python
+img,EAR,status,time=vision.detect_blink(img,threshold=0.20)
 ```
 
 <div align="center">
@@ -732,7 +767,7 @@ while True:
     cv2.waitKey(1)
 ```
 
-#### Vucut Tespiti ve Analizi
+#### Vücut Tespiti ve Analizi
 
 ```python
 from futurevision import vision
@@ -746,6 +781,9 @@ while True:
     cv2.imshow("Future Vision",img)
     cv2.waitKey(1)
 ```
+
+left değişkeni sol kolunuzun omzunuza yakınlık oranını döndürür.
+right değişkeni sol kolunuzun omzunuza yakınlık oranını döndürür.
 
 ```sh
 175.43727322952194 186.38214534742016
@@ -771,7 +809,7 @@ while True:
 
 <br>
 
-##### Vucut Çizimini Devre dışı bırakma
+##### Vücut Çizimini Devre Dışı Bırakma
 
 ```python
 from futurevision import vision
@@ -795,11 +833,13 @@ vision=vision.Vision()
 cap=cv2.VideoCapture(0)
 while True:
     _,img=cap.read()
-    img,left,right=vision.detect_body(img)
-    print(left,right)
+    img,name=vision.detect_objects(img)
+    print(name)
     cv2.imshow("Future Vision",img)
     cv2.waitKey(1)
 ```
+
+name değişkeni tespit edilen objenin ismini döndürür.
 
 ```sh
 person
@@ -818,7 +858,7 @@ person
 
 #### Yüz Tanıma
 
-Yüz tanımanın çalışabilmesi için yüz tanıma modelini indirmelisiniz [shape_predictor_68_face_landmarks.dat](https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2)
+Yüz tanımanın çalışabilmesi için yüz tanıma modelini indirmelisiniz.[shape_predictor_68_face_landmarks.dat](https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2)
 
 ```python
 from futurevision import vision
@@ -962,7 +1002,7 @@ except KeyboardInterrupt:
 
 #### Settings
 
-Settings Bölümünde Uygulamanın yazacağınız python kodunuzla haberleşebilmesi için python kodunuzun size vereceği ip adresi ve port bilgilerini kaydetmelisiniz.
+Settings bölümünde, uygulamanın yazacağınız Python koduyla haberleşebilmesi için Python kodunuzun size vereceği IP adresi ve port bilgilerini kaydetmelisiniz.
 
 <div align="center">
 <img style="width:700px;" src="/Users/ali/Desktop/futurevision/README-IMAGE/ip_result_terminal.PNG"><br>
@@ -975,7 +1015,7 @@ Settings Bölümünde Uygulamanın yazacağınız python kodunuzla haberleşebil
 
 #### HWC
 
-Bu bölümde **future vision** kütüphanesinin **iphone** modülü ile yazacağınız kodlara göre iPhone telefonunuzun gözlemsel donanımlarını kontrol etme imkanını sunar. **flash_on()** **flash_off()** fonksiyonları ile Flaşı,  **screen_brightness(value)** fonksiyonu ile Ekran Parlaklığını, **volume_intensity(value)** fonksiyonu ile Hoparlorun Ses Şiddetini Kontrol Etmenizi Sağlar.
+Bu bölümde, **Future Vision** kütüphanesinin **iPhone** modülü ile yazacağınız kodlara göre iPhone telefonunuzun gözlemsel donanımlarını kontrol etme imkanını sunar. **flash_on()** ve **flash_off()** fonksiyonlarıyla Flaşı, **screen_brightness(value)** fonksiyonuyla Ekran Parlaklığını, **volume_intensity(value)** fonksiyonuyla Hoparlörün Ses Şiddetini kontrol etmenizi sağlar.
 
 <div align="center">
   <img style="width:300px;" src="/Users/ali/Desktop/futurevision/README-IMAGE/hwc.PNG">
@@ -983,7 +1023,7 @@ Bu bölümde **future vision** kütüphanesinin **iphone** modülü ile yazacağ
 
 #### CwH
 
-Bu bölümde **future vision** kütüphanesinin **iphone** modülü ile yazacağınız kodlara göre iPhone telefonunuzun gözlemsel donanım bilgilerini python kodunuza bir liste olarak gönderir. Bu liste verisini **read_data()** fonksiyonu ile okuyabilirsiniz veriler arasında Ekran parlaklığı değeri Ses Şiddeti Değeri ve Telefonunuzun hangi ses tuşuna basıldığının verisini gönderir örnek bir veri:
+Bu bölümde **Future Vision** kütüphanesinin **iPhone** modülü ile yazacağınız kodlara göre iPhone telefonunuzun gözlemsel donanım bilgilerini python kodunuza bir liste olarak gönderir. Bu liste verisini **read_data()** fonksiyonu ile okuyabilirsiniz veriler arasında Ekran parlaklığı değeri Ses Şiddeti Değeri ve Telefonunuzun hangi ses tuşuna basıldığının verisini yer almaktadır örnek veri listesi:
 
 ```sh
 ['25', '70', 'Down']
@@ -996,7 +1036,7 @@ Bu bölümde **future vision** kütüphanesinin **iphone** modülü ile yazacağ
 
 #### LEDs
 
-Bu bölümde **future vision** kütüphanesinin **iphone** modülü ile yazacağınız kodlara göre uygulama içerisinde bulunan 5 adet led grafiğini kontrol etme imkanı sunar ve 5 adet ledin renklerini yeşil, mavi ve kirmizi olarak değiştirebilirsiniz. Uygulamadaki ledleri açmak için **led_on(pin)** kapatmak için **led_off(pin)** fonksiyonlarını kullanabilirsiniz
+Bu bölümde **Future Vision** kütüphanesinin **iPhone** modülü ile yazacağınız kodlara göre uygulama içerisinde bulunan 5 adet led grafiğini kontrol etme imkanı sunar ve 5 adet ledin renklerini yeşil, mavi ve kirmizi olarak değiştirebilirsiniz. Uygulamadaki ledleri açmak için **led_on(pin)** kapatmak için **led_off(pin)** fonksiyonlarını kullanabilirsiniz.
 
 <div align="center">
   <img style="width:300px;" src="/Users/ali/Desktop/futurevision/README-IMAGE/leds.PNG">
@@ -1004,7 +1044,7 @@ Bu bölümde **future vision** kütüphanesinin **iphone** modülü ile yazacağ
 
 #### SEND&SHOW
 
-Bu bölümde **future vision** kütüphanesinin **iphone** modülü ile yazacağınız kodlara göre uygulama içerisindeki input'a gireceğiniz verileri bilgisayarınıza gönderebilir veya bilgisayarınızdan mobil uygulamaya veri gönderebilirsiniz. mobil uygulamaya veri göndermek için **send_data(data)** mobil uygulamanın göndereceği verileri okumak için **read_data()** fonksiyonlarını kullanabilirsiniz.
+Bu bölümde **future vision** kütüphanesinin **iPhone** modülü ile yazacağınız kodlara göre uygulama içerisindeki input'a gireceğiniz verileri bilgisayarınıza gönderebilir veya bilgisayarınızdan mobil uygulamaya veri gönderebilirsiniz. mobil uygulamaya veri göndermek için **send_data(data)** mobil uygulamanın göndereceği verileri okumak için **read_data()** fonksiyonlarını kullanabilirsiniz.
 
 <div align="center">
   <img style="width:300px;" src="/Users/ali/Desktop/futurevision/README-IMAGE/sendshow.PNG">
@@ -1074,7 +1114,7 @@ while True:
     print(data)
 ```
 
-**Listenin index sıralamasındaki ilk index ekran parlaklığı, ikinci index ses şiddeti, üçüncü index telefonun hangi ses yükseltme tuşuna basıldığının bilgilerini saklamaktadır**
+**Listenin index sıralamasındaki ilk index ekran parlaklığı, ikinci index ses şiddeti, üçüncü index telefonun hangi ses yükseltme tuşuna basıldığının bilgilerini temsil etmektedir**
 
 ```sh
 ['25', '70', 'Down']
@@ -1141,6 +1181,13 @@ while True:
 <div align="center">
   <img src="/Users/ali/Desktop/futurevision/README-IMAGE/send_data.gif"><br>
 </div>
+
+## Modüllerin birlikte kullanımlarının anlatımı için:
+
+<a href="https://www.youtube.com/channel/UCZwR4LvkgdLl-T0cAf19b7A">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="YouTube Logo" width="150" height="100">
+</a>
+
 
 ## License
 
