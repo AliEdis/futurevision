@@ -1182,6 +1182,9 @@ while True:
   <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/send_data.gif?raw=true"><br>
 </div>
 
+![Demo File](https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/send_data.gif?raw=true)
+
+
 ## Modüllerin birlikte kullanımlarının anlatımı için:
 
 <a href="https://www.youtube.com/channel/UCZwR4LvkgdLl-T0cAf19b7A" target="_blank">
