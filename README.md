@@ -21,7 +21,7 @@
 
 **Python** dili ile Arduino kartınızdaki led'leri, RGB led'i, butonları ve 8x8 led matrisi kontrol etmenizi sağlar.
 
-Ana bilgisayarınızı kullanarak bilgisayarlı görü ile Arduino'yu kontrol edebilir ve Raspberry Pi' da, bilgisayarlı görüyü kolaylaştırır.
+Ana bilgisayarınızı kullanarak bilgisayarlı görü ile Arduino'yu kontrol edebilir ve Raspberry Pi kartında bilgisayarlı görüyü kolaylaştırır.
 
 Kütüphane için oluşturulan bir **Darwin Future Vision** isimli mobil uygulaması, iPhone telefonunuzun gözlemsel donanımları olan flaşını, ekran parlaklığını ve hoparlör ses oranını kontrol etmenizi sağlar.
 
