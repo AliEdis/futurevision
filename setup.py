@@ -6,7 +6,7 @@ with open('README.md') as readme_file:
 
 setup(
     name="futurevision", 
-    version="0.0.4",  
+    version="0.0.8",  
     description="Library that combines Robotics Hardware, iPhone and AI for Everyone",  
     long_description=readme,
     long_description_content_type="text/markdown",
@@ -21,22 +21,24 @@ setup(
     'Artificial Intelligence',
     'Image Processing',
     'Robotics Hardware',
-    'OpenCV',
-    'MediaPipe',
-    'numpy',
-    'pyserial',
-    'scipy',
-    'pyautogui',
-    'pyaudio',
-    'gtts',
-    'pygame',
-    'dlib',
+    'Face Recognition',
+    'Sound Intensity Measurement',
+    'Eye Blink Detection',
+    'Sign Language',
+    'Color Recognition',
+    'Raspberry Pi Sense Hat',
+    'Emotion Detection',
+    'Face Counter',
+    'Body Detection and Analysis',
+    'Object Recognition',
+    'Keyboard Control',
+    'iPhone Hardware',
     ],
     
     package_dir={'futurevision': 'futurevision'},
 
     package_data={
-        'futurevision': ['*.dat', '*.caffemodel', '*.txt'],
+        'futurevision': ['*.dat', '*.caffemodel', '*.txt','*.md'],
     },
     
     
