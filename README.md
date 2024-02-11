@@ -2,6 +2,14 @@
   <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/logo2.svg"><br>
 </div>
 
+<div align="center">
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" width="130" alt="made with love  markdown badge" >
+<img src="https://forthebadge.com/images/badges/open-source.svg" width="130" height="30" alt="open source  markdown badge">
+<br>
+<img src="https://forthebadge.com/images/badges/made-with-markdown.svg" width="230" height="30" alt="made with markdown badge">
+
+</div>
+
 ---
 
 <h1><strong>futurevision: Robotik eğitiminde yeni bir çağ</strong></h1>
@@ -33,6 +41,7 @@ Klasikleşmiş robotik eğitiminin dışına çıkarak robotik eğitiminde çocu
 **Future Vision** kütüphanesinin **Vision** modülüyle kendi işaret dilinizi oluşturabilir, elleri tespit edebilir, yüzünüzdeki mutluluk ve mutsuzluk oranını tespit edebilir, bir odadaki anlık yüz sayısını tespit edebilir, renkleri algılayabilir, gözlerin kapalı veya açık olduğunu tespit edebilir, klavyedeki tuşları yönetebilir, ses şiddetini ölçebilir, bilgisayarınızı konuşturabilir, sağ ve sol kol hareketlerini analiz edebilir, objeleri tanıyabilir ve kişisel yüz tanıma yapabilirsiniz.
 
 **Future Vision** kütüphanesinin **iPhone** modülü ve mobil uygulama ile iPhone telefonunuzun gözlemsel donanımları olan flaş, ekran parlaklığı ve hoparlörün ses şiddetini kontrol edebilirsiniz. Ayrıca, ekran parlaklığı, hoparlör ses şiddeti oranı ve sesi yükseltme veya alçaltma tuşlarına basılma verilerini bilgisayarınızda görebilir ve bu verilere göre Arduino veya Raspberry Pi kartınızı kontrol edebilirsiniz veya Arduino ve Raspberry Pi ile örneğin butona basarak telefonunuzun flaşını kontrol edebilirsiniz.
+
 
 ## Modullerin Kullanımı
 
@@ -1182,14 +1191,20 @@ while True:
   <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/send_data.gif?raw=true"><br>
 </div>
 
-![Demo File](https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/send_data.gif?raw=true)
-
 
 ## Modüllerin birlikte kullanımlarının anlatımı için:
 
 <a href="https://www.youtube.com/channel/UCZwR4LvkgdLl-T0cAf19b7A" target="_blank">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="YouTube Logo" width="150" height="100">
+  <img src="https://user-images.githubusercontent.com/74038190/235294007-de441046-823e-4eff-89bf-d4df52858b65.gif" alt="YouTube Logo" width="150">
 </a>
+
+## İletişim
+
+<a href="https://www.linkedin.com/in/ali-edis-68267820a/" target="_blank">
+  <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="150">
+</a>
+
+
 
 
 
