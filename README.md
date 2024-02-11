@@ -31,7 +31,7 @@ iPhone uygulamasındaki LEDs bölümünde 5 led grafiğini kontrol edebilirsiniz
 
 iPhone uygulaması ile python kodunuza veri gönderebilir veya python kodunuzdan göndereceğiniz verileri uygulamada görebilirsiniz.
 
-# <img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="40"/> Hedefi Nedir
+# Hedefi Nedir <img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="40"/>
 
 Klasikleşmiş robotik eğitiminin dışına çıkarak robotik eğitiminde çocukların merakını yeniden uyandırmayı ve robotik eğitiminde yeni bir çığır açmayı hedeflemektedir
 
