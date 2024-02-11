@@ -14,7 +14,7 @@
 
 # <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40" /> Future Vision : Robotik Eğitiminde Yeni Bir Çağ
 
-## Nedir <img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="40" />
+## Nedir <img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="50" />
 
 **Python** dili ile Arduino kartınızdaki led'leri, RGB led'i, butonları ve 8x8 led matrisi kontrol etmenizi sağlar.
 
