@@ -6,6 +6,7 @@
 <img src="https://forthebadge.com/images/badges/built-with-love.svg" width="130" alt="made with love  markdown badge" >
 <img src="https://forthebadge.com/images/badges/open-source.svg" width="130" height="30" alt="open source  markdown badge">
 <br>
+<br>
 <img src="https://forthebadge.com/images/badges/made-with-markdown.svg" width="230" height="30" alt="made with markdown badge">
 
 </div>
@@ -109,6 +110,7 @@ uno.wait(1)
 **RGB LED connections are as follows.**
 
 <div align="center">
+  <br>
   <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/rgb_led_pin.png"><br>
 </div>
 
@@ -138,6 +140,7 @@ Terminal Output
 **The button connections are as follows.**
 
 <div align="center">
+  <br>
   <img  src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/button_pin1.png"><br>
 </div>
 
@@ -195,6 +198,7 @@ for i in sign_list:
 **Led Matrix connections are as follows.**
 
 <div align="center">
+  <br>
   <img  src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/led_matrix1.png"><br>
 </div>
 
@@ -451,6 +455,7 @@ Finger List:  [0, 0, 0, 0, 0] Hand Status:  False
 ```
 
 <div align="center">
+  
   <img loading="eager" width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/default_hand_detection.gif?raw=true"><br>
 </div>
 
@@ -471,6 +476,7 @@ while True:
 ```
 
 <div align="center">
+  
   <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/custom_hand_detection.gif?raw=true"><br>
 </div>
 
@@ -495,7 +501,8 @@ while True:
 The fingers represented by the indexes in the list are as in the picture below.
 
 <div align="center">
-  <img width="250" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/fingers_numbers.png"><br>
+  <br>
+  <img width="250" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/fingers_numbers.png?raw=true"><br>
 </div>
 
 ```python
@@ -553,6 +560,7 @@ img, emotion,th=vision.detect_emotion(img,threshold=0.040)
 ```
 
 <div align="center">
+  
   <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/emotion_default1.gif?raw=true"><br>
 </div>
 
@@ -573,6 +581,7 @@ while True:
 ```
 
 <div align="center">
+  
   <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/custom_emotion2.gif?raw=true"><br>
 </div>
 
@@ -616,13 +625,10 @@ Terminal OutputInstant Face Counter
 2
 2
 2
-1
-1
-2
-2
 ```
 
 <div align="center">
+  
   <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/count_faces.gif?raw=true"><br>
 </div>
 
@@ -676,7 +682,9 @@ img,name,list=vision.detect_colors(img,threshold=500)
 ```
 
 <div align="center">
+  
   <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/color.gif?raw=true"><br>
+                                        
 </div>
 
 <br>
@@ -697,6 +705,7 @@ while True:
 ```
 
 <div align="center">
+  
   <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/custom_color.gif?raw=true"><br>
 </div>
 
@@ -759,6 +768,7 @@ img,EAR,status,time=vision.detect_blink(img,threshold=0.20)
 ```
 
 <div align="center">
+  
   <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/eye_blink.gif?raw=true"><br>
 </div>
 
@@ -818,6 +828,7 @@ right variable returns the proximity of your left arm to your shoulder.
 ```
 
 <div align="center">
+  
   <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/body.gif?raw=true"><br>
 </div>
 
@@ -865,6 +876,7 @@ person
 ```
 
 <div align="center">
+  
   <img width="700"   loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/object.gif?raw=true"><br>
 </div>
 
@@ -902,6 +914,7 @@ while True:
 ```
 
 <div align="center">
+  
   <img width="700" loading="lazy"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/face_rec.gif?raw=true"><br>
 </div>
 
@@ -989,7 +1002,7 @@ except KeyboardInterrupt:
 ## Application Sections and Sample Codes
 
 <div align="center">
-<img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/9.PNG"><br>
+<img width="300" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/9.PNG"><br>
 </div>
 
 ### Settings
@@ -1000,9 +1013,9 @@ In the Settings section, you should save the IP address and port information tha
 <img loading="lazy" style="width:700px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/ip_result_terminal.PNG"><br>
 </div>
 <div align="center">
-  <img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/10.PNG">
-  <img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/11.PNG">
-  <img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/12.PNG"><br>
+  <img width="300" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/10.PNG">
+  <img width="300" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/11.PNG"><br><br>
+  <img width="300" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/12.PNG"><br>
 </div>
 
 ### HWC
@@ -1010,7 +1023,8 @@ In the Settings section, you should save the IP address and port information tha
 In this section, the **iPhone** module of the **Future Vision** library allows you to control the observational hardware of your iPhone based on the code you write. It allows you to control the Flash with **flash_on()** and **flash_off()** functions, the Screen Brightness with **screen_brightness(value)** function, and the Speaker Volume with **volume_intensity(value)** function.
 
 <div align="center">
-  <img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/hwc.PNG">
+  <br>
+  <img width="300" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/hwc.PNG">
 </div>
 
 ### CwH
@@ -1023,7 +1037,8 @@ In this section, the **iPhone** module of the **Future Vision** library sends th
 ```
 
 <div align="center">
-  <img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/cwh.PNG">
+  <br>
+  <img width="300" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/cwh.PNG">
 </div>
 
 ### LEDs
@@ -1031,7 +1046,8 @@ In this section, the **iPhone** module of the **Future Vision** library sends th
 In this section, the **iPhone** module of the **Future Vision** library allows you to control the 5 led graphics in the application according to the codes you write with the **iPhone** module and you can change the colors of the 5 leds to green, blue and red. You can use **led_on(pin)** to turn on the leds in the application and **led_off(pin)** to turn them off.
 
 <div align="center">
-  <img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/leds.PNG">
+  <br>
+  <img width="300" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/leds.PNG">
 </div>
 
 ### SEND&SHOW
@@ -1039,7 +1055,8 @@ In this section, the **iPhone** module of the **Future Vision** library allows y
 In this section, according to the codes you will write with the **iPhone** module of the **future vision** library, you can send the data you will enter in the input in the application to your computer or send data from your computer to the mobile application. you can use **send_data(data)** functions to send data to the mobile application and **read_data()** functions to read the data sent by the mobile application.
 
 <div align="center">
-  <img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/sendshow.PNG">
+  <br>
+  <img width="300" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/sendshow.PNG">
 </div>
 
 ## Sample Codes
@@ -1059,6 +1076,7 @@ while True:
 ```
 
 <div align="center">
+  
   <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/flash_hwc.gif?raw=true"><br>
 </div>
 
@@ -1075,6 +1093,7 @@ while True:
 ```
 
 <div align="center">
+ 
   <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/sb_hwc.gif?raw=true"><br>
 </div>
 
@@ -1091,6 +1110,7 @@ while True:
 ```
 
 <div align="center">
+  
   <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/si_hwc.gif?raw=true"><br>
 </div>
 
@@ -1114,6 +1134,7 @@ Reading iPhone Observational Hardware Data**The first index in the index order o
 ```
 
 <div align="center">
+  
   <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/cwh_data.gif?raw=true"><br>
 </div>
 
@@ -1138,12 +1159,14 @@ while True:
 ```
 
 <div align="center">
+  
   <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/leds_data.gif?raw=true"><br>
 </div>
 
 #### Change Drawing Color
 
 <div align="center">
+  
   <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/colored_leds_data.gif?raw=true"><br>
 </div>
 
@@ -1158,6 +1181,7 @@ while True:
 ```
 
 <div align="center">
+  
   <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/read_data.gif?raw=true"><br>
 </div>
 
@@ -1171,6 +1195,7 @@ while True:
 ```
 
 <div align="center">
+  
   <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/send_data.gif?raw=true"><br>
 </div>
 
@@ -1181,14 +1206,19 @@ while True:
   <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" width="150">
 </a>
 
+<br>
 
 <a href="https://www.linkedin.com/in/ali-edis-68267820a/" target="_blank">
   <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" width="150">
 </a>
 
+<br>
+
 <a href="https://linktr.ee/aliedis" target="_blank">
   <img src="https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white" width="150">
 </a>
+
+
 
 
 
