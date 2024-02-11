@@ -48,7 +48,7 @@ Klasikleşmiş robotik eğitiminin dışına çıkarak robotik eğitiminde çocu
 
 # Modüllerin Kullanımı <img src='https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif' width="40"> 
 
-# Arduino <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/1280px-Arduino_Logo.svg.png' width="40"> 
+# Arduino
 
 
 **Future Vision** kütüphanesinin Arduino Uno kartınızla doğru çalışabilmesi için [FutureVision-Arduino.ino](https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/FutureVision-Arduino/FutureVision-Arduino.ino) kodunu Arduino Uno kartınıza yüklemeniz gerekmektedir.
@@ -199,7 +199,7 @@ Led Matrix bağlantıları aşağadaki gibidir.
   <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/led_matrix1.png"><br>
 </div>
 
-# Raspberry Pi <img src='https://download.logo.wine/logo/Raspberry_Pi/Raspberry_Pi-Logo.wine.png' width="60"> 
+# Raspberry Pi
 
 
 #### Led açma ve kapatma
