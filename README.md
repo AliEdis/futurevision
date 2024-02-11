@@ -48,7 +48,8 @@ Klasikleşmiş robotik eğitiminin dışına çıkarak robotik eğitiminde çocu
 
 # Modüllerin Kullanımı <img src='https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif' width="40"> 
 
-<h1><strong>Arduino</strong></h3>
+# Arduino <img src='https://brandslogos.com/wp-content/uploads/images/large/arduino-logo-1.png' width="40"> 
+
 
 **Future Vision** kütüphanesinin Arduino Uno kartınızla doğru çalışabilmesi için [FutureVision-Arduino.ino](https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/FutureVision-Arduino/FutureVision-Arduino.ino) kodunu Arduino Uno kartınıza yüklemeniz gerekmektedir.
 
@@ -198,7 +199,7 @@ Led Matrix bağlantıları aşağadaki gibidir.
   <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/led_matrix1.png"><br>
 </div>
 
-<h1><strong>Raspberry Pi</strong></h3>
+<h1><strong>Raspberry Pi</strong></h1>
 
 #### Led açma ve kapatma
 
@@ -420,7 +421,7 @@ left
 middle
 ```
 
-<h1><strong>Vision</strong></h3>
+<h1><strong>Vision</strong></h1>
 
 #### El Tespiti
 
@@ -974,7 +975,7 @@ except KeyboardInterrupt:
     vision.stop_stream ()
 ```
 
-<h1><strong>iPhone</strong></h3>
+<h1><strong>iPhone</strong></h1>
 
 <div align="center">
 <h4><b>App Store Linki ile İndirin</b><h/4><br><br>
