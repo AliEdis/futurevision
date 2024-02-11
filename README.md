@@ -866,7 +866,7 @@ person
 ```
 
 <div align="center">
-  <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/object.gif?raw=true"><br>
+  <img width="700"   loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/object.gif?raw=true"><br>
 </div>
 
 <br>
@@ -903,7 +903,7 @@ while True:
 ```
 
 <div align="center">
-  <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/face_rec.gif?raw=true"><br>
+  <img width="700" loading="lazy"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/face_rec.gif?raw=true"><br>
 </div>
 
 Çizimi devre dışı bırakma
@@ -979,48 +979,18 @@ except KeyboardInterrupt:
 ## iPhone
 
 <div align="center">
-<h3><b>App Store Linki ile İndirin</b><h/3><br><br>
+<h3><b>Uygulamayı App Store Logosuna Basarak İndirebilirsiniz.</b><h/3><br><br>
 <a href="https://apps.apple.com/tr/app/darwin-future-vision/id6476931869" target="_blank">
-  <img src="https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white" alt="YouTube Logo" width="250">
+  <img loading="lazy" src="https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white" alt="YouTube Logo" width="250">
 </a>
 <br>
-<h4><b>VEYA</b></h4>
-</div>
-<p style="text-align: center;"><b>App Store Açın</b></p>
-
-<div align="center">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/1.PNG">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/2.PNG">
 </div>
 
-<br>
-
-<p style="text-align: center;"><b>Arama çubuğunda Darwin Future Vision Aratın</b></p> 
-<div align="center">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/3.PNG">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/4.PNG">
-</div>
-
-<br>
-
-<p style="text-align: center;"><b>Uygulama Sayfasına Girin</b></p>
-
-<div align="center">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/5.PNG">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/6.PNG">
-</div>
-<br>
-
-<p style="text-align: center;"><b>Uygulamayı İndirin</b></p> 
-<div align="center">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/7.PNG">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/8.PNG">
-</div>
 
 ## Uygulama Bölümleri ve Örnek Kodlar
 
 <div align="center">
-<img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/9.PNG"><br>
+<img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/9.PNG"><br>
 </div>
 
 ### Settings
@@ -1028,12 +998,12 @@ except KeyboardInterrupt:
 Settings bölümünde, uygulamanın yazacağınız Python koduyla haberleşebilmesi için Python kodunuzun size vereceği IP adresi ve port bilgilerini kaydetmelisiniz.
 
 <div align="center">
-<img style="width:700px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/ip_result_terminal.PNG"><br>
+<img loading="lazy" style="width:700px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/ip_result_terminal.PNG"><br>
 </div>
 <div align="center">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/10.PNG">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/11.PNG">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/12.PNG"><br>
+  <img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/10.PNG">
+  <img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/11.PNG">
+  <img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/12.PNG"><br>
 </div>
 
 ### HWC
@@ -1041,7 +1011,7 @@ Settings bölümünde, uygulamanın yazacağınız Python koduyla haberleşebilm
 Bu bölümde, **Future Vision** kütüphanesinin **iPhone** modülü ile yazacağınız kodlara göre iPhone telefonunuzun gözlemsel donanımlarını kontrol etme imkanını sunar. **flash_on()** ve **flash_off()** fonksiyonlarıyla Flaşı, **screen_brightness(value)** fonksiyonuyla Ekran Parlaklığını, **volume_intensity(value)** fonksiyonuyla Hoparlörün Ses Şiddetini kontrol etmenizi sağlar.
 
 <div align="center">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/hwc.PNG">
+  <img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/hwc.PNG">
 </div>
 
 ### CwH
@@ -1054,7 +1024,7 @@ Bu bölümde **Future Vision** kütüphanesinin **iPhone** modülü ile yazacağ
 ```
 
 <div align="center">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/cwh.PNG">
+  <img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/cwh.PNG">
 </div>
 
 ### LEDs
@@ -1062,7 +1032,7 @@ Bu bölümde **Future Vision** kütüphanesinin **iPhone** modülü ile yazacağ
 Bu bölümde **Future Vision** kütüphanesinin **iPhone** modülü ile yazacağınız kodlara göre uygulama içerisinde bulunan 5 adet led grafiğini kontrol etme imkanı sunar ve 5 adet ledin renklerini yeşil, mavi ve kirmizi olarak değiştirebilirsiniz. Uygulamadaki ledleri açmak için **led_on(pin)** kapatmak için **led_off(pin)** fonksiyonlarını kullanabilirsiniz.
 
 <div align="center">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/leds.PNG">
+  <img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/leds.PNG">
 </div>
 
 ### SEND&SHOW
@@ -1070,7 +1040,7 @@ Bu bölümde **Future Vision** kütüphanesinin **iPhone** modülü ile yazacağ
 Bu bölümde **future vision** kütüphanesinin **iPhone** modülü ile yazacağınız kodlara göre uygulama içerisindeki input'a gireceğiniz verileri bilgisayarınıza gönderebilir veya bilgisayarınızdan mobil uygulamaya veri gönderebilirsiniz. mobil uygulamaya veri göndermek için **send_data(data)** mobil uygulamanın göndereceği verileri okumak için **read_data()** fonksiyonlarını kullanabilirsiniz.
 
 <div align="center">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/sendshow.PNG">
+  <img style="width:300px;" loading="lazy" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/sendshow.PNG">
 </div>
 
 ## Örnek Kodlar
@@ -1090,7 +1060,7 @@ while True:
 ```
 
 <div align="center">
-  <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/flash_hwc.gif?raw=true"><br>
+  <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/flash_hwc.gif?raw=true"><br>
 </div>
 
 #### Ekran Parlaklığı Kontrollü
@@ -1106,7 +1076,7 @@ while True:
 ```
 
 <div align="center">
-  <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/sb_hwc.gif?raw=true"><br>
+  <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/sb_hwc.gif?raw=true"><br>
 </div>
 
 #### Ses Şiddeti Kontrollü
@@ -1122,7 +1092,7 @@ while True:
 ```
 
 <div align="center">
-  <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/si_hwc.gif?raw=true"><br>
+  <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/si_hwc.gif?raw=true"><br>
 </div>
 
 ### CwH
@@ -1145,7 +1115,7 @@ while True:
 ```
 
 <div align="center">
-  <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/cwh_data.gif?raw=true"><br>
+  <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/cwh_data.gif?raw=true"><br>
 </div>
 
 ### LEDs
@@ -1169,13 +1139,13 @@ while True:
 ```
 
 <div align="center">
-  <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/leds_data.gif?raw=true"><br>
+  <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/leds_data.gif?raw=true"><br>
 </div>
 
 **Çizim Rengini Değiştirme**
 
 <div align="center">
-  <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/colored_leds_data.gif?raw=true"><br>
+  <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/colored_leds_data.gif?raw=true"><br>
 </div>
 
 ### Read Data
@@ -1189,7 +1159,7 @@ while True:
 ```
 
 <div align="center">
-  <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/read_data.gif?raw=true"><br>
+  <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/read_data.gif?raw=true"><br>
 </div>
 
 ### Send Data
@@ -1202,7 +1172,7 @@ while True:
 ```
 
 <div align="center">
-  <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/send_data.gif?raw=true"><br>
+  <img width="700"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/send_data.gif?raw=true"><br>
 </div>
 
 
