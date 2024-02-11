@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/logo2.svg"><br>
+  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/logo2.svg"><br><br>
 </div>
 
 <div align="center">
