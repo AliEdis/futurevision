@@ -490,7 +490,7 @@ while True:
 Listedeki indexlerin temsil ettiği parmaklar aşağıdaki resimdeki gibidir.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/fingers_numbers.png"><br>
+  <img width="500" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/fingers_numbers.png"><br>
 </div>
 
 ```python
