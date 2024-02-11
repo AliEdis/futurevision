@@ -446,7 +446,7 @@ Finger List:  [0, 0, 0, 0, 0] Hand Status:  False
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/default_hand_detection.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/default_hand_detection.gif?raw=true"><br>
 </div>
 
 <br>
@@ -490,7 +490,7 @@ while True:
 Listedeki indexlerin temsil ettiği parmaklar aşağıdaki resimdeki gibidir.
 
 <div align="center">
-  <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/fingers_numbers.png"><br>
+  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/fingers_numbers.png"><br>
 </div>
 
 ```python
@@ -548,7 +548,7 @@ img, emotion,th=vision.detect_emotion(img,threshold=0.040)
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/emotion_default1.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/emotion_default1.gif?raw=true"><br>
 </div>
 
 <br>
@@ -568,7 +568,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/custom_emotion2.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/custom_emotion2.gif?raw=true"><br>
 </div>
 
 <br>
@@ -618,7 +618,7 @@ Terminal Çıktısı
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/count_faces.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/count_faces.gif?raw=true"><br>
 </div>
 
 <br>
@@ -671,7 +671,7 @@ img,name,list=vision.detect_colors(img,threshold=500)
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/color.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/color.gif?raw=true"><br>
 </div>
 
 <br>
@@ -692,7 +692,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/custom_color.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/custom_color.gif?raw=true"><br>
 </div>
 
 <br>
@@ -754,7 +754,7 @@ img,EAR,status,time=vision.detect_blink(img,threshold=0.20)
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/eye_blink.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/eye_blink.gif?raw=true"><br>
 </div>
 
 <br>
@@ -813,7 +813,7 @@ right değişkeni sol kolunuzun omzunuza yakınlık oranını döndürür.
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/body.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/body.gif?raw=true"><br>
 </div>
 
 <br>
@@ -860,7 +860,7 @@ person
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/object.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/object.gif?raw=true"><br>
 </div>
 
 <br>
@@ -897,7 +897,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/face_rec.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/face_rec.gif?raw=true"><br>
 </div>
 
 Çizimi devre dışı bırakma
@@ -1076,7 +1076,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/flash_hwc.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/flash_hwc.gif?raw=true"><br>
 </div>
 
 ##### Ekran Parlaklığı Kontrollü
@@ -1092,7 +1092,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/sb_hwc.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/sb_hwc.gif?raw=true"><br>
 </div>
 
 ##### Ses Şiddeti Kontrollü
@@ -1108,7 +1108,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/si_hwc.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/si_hwc.gif?raw=true"><br>
 </div>
 
 #### CwH
@@ -1131,7 +1131,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/cwh_data.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/cwh_data.gif?raw=true"><br>
 </div>
 
 #### LEDs
@@ -1155,13 +1155,13 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/leds_data.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/leds_data.gif?raw=true"><br>
 </div>
 
 **Çizim Rengini Değiştirme**
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/colored_leds_data.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/colored_leds_data.gif?raw=true"><br>
 </div>
 
 #### Read Data
@@ -1175,7 +1175,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/read_data.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/read_data.gif?raw=true"><br>
 </div>
 
 #### Send Data
@@ -1188,7 +1188,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/send_data.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/send_data.gif?raw=true"><br>
 </div>
 
 
