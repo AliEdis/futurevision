@@ -35,7 +35,7 @@ iPhone uygulaması ile python kodunuza veri gönderebilir veya python kodunuzdan
 
 Klasikleşmiş robotik eğitiminin dışına çıkarak robotik eğitiminde çocukların merakını yeniden uyandırmayı ve robotik eğitiminde yeni bir çığır açmayı hedeflemektedir
 
-## Modüler ve ozellikleri
+# Modüler ve ozellikleri
 
 **Future Vision** kütüphanesinin **Arduino** modülüyle Python dilini kullanarak Arduino'daki LED'leri, RGB LED'leri ve 8x8 LED matrisini kontrol edebilir, ayrıca Arduino'nun analog pinlerine bağlı olan butonlardan değer okuyabilirsiniz.
 
@@ -46,9 +46,9 @@ Klasikleşmiş robotik eğitiminin dışına çıkarak robotik eğitiminde çocu
 **Future Vision** kütüphanesinin **iPhone** modülü ve mobil uygulama ile iPhone telefonunuzun gözlemsel donanımları olan flaş, ekran parlaklığı ve hoparlörün ses şiddetini kontrol edebilirsiniz. Ayrıca, ekran parlaklığı, hoparlör ses şiddeti oranı ve sesi yükseltme veya alçaltma tuşlarına basılma verilerini bilgisayarınızda görebilir ve bu verilere göre Arduino veya Raspberry Pi kartınızı kontrol edebilirsiniz veya Arduino ve Raspberry Pi ile örneğin butona basarak telefonunuzun flaşını kontrol edebilirsiniz.
 
 
-## Modullerin Kullanımı
+# Modullerin Kullanımı
 
-<h3><strong>Arduino</strong></h3>
+<h1><strong>Arduino</strong></h3>
 
 **Future Vision** kütüphanesinin Arduino Uno kartınızla doğru çalışabilmesi için [FutureVision-Arduino.ino](https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/FutureVision-Arduino/FutureVision-Arduino.ino) kodunu Arduino Uno kartınıza yüklemeniz gerekmektedir.
 
@@ -198,7 +198,7 @@ Led Matrix bağlantıları aşağadaki gibidir.
   <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/led_matrix1.png"><br>
 </div>
 
-<h3><strong>Raspberry Pi</strong></h3>
+<h1><strong>Raspberry Pi</strong></h3>
 
 #### Led açma ve kapatma
 
@@ -420,7 +420,7 @@ left
 middle
 ```
 
-<h3><strong>Vision</strong></h3>
+<h1><strong>Vision</strong></h3>
 
 #### El Tespiti
 
@@ -974,7 +974,7 @@ except KeyboardInterrupt:
     vision.stop_stream ()
 ```
 
-<h3><strong>iPhone</strong></h3>
+<h1><strong>iPhone</strong></h3>
 
 <div align="center">
 <h4><b>App Store Linki ile İndirin</b><h/4><br><br>
