@@ -31,11 +31,11 @@ iPhone uygulamasındaki LEDs bölümünde 5 led grafiğini kontrol edebilirsiniz
 
 iPhone uygulaması ile python kodunuza veri gönderebilir veya python kodunuzdan göndereceğiniz verileri uygulamada görebilirsiniz.
 
-# Hedefi Nedir <img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="40"/>
+# Hedefi Nedir <img loading="eager" src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="40"/>
 
 Klasikleşmiş robotik eğitiminin dışına çıkarak robotik eğitiminde çocukların merakını yeniden uyandırmayı ve robotik eğitiminde yeni bir çığır açmayı hedeflemektedir
 
-# Modüler ve Özellikleri <img src='https://user-images.githubusercontent.com/74038190/221857969-f37e1717-1470-4fe4-abb5-88b334cf64ea.png' width="40"> 
+# Modüler ve Özellikleri <img loading="eager" src='https://user-images.githubusercontent.com/74038190/221857969-f37e1717-1470-4fe4-abb5-88b334cf64ea.png' width="40"> 
 
 **Future Vision** kütüphanesinin **Arduino** modülüyle Python dilini kullanarak Arduino'daki LED'leri, RGB LED'leri ve 8x8 LED matrisini kontrol edebilir, ayrıca Arduino'nun analog pinlerine bağlı olan butonlardan değer okuyabilirsiniz.
 
@@ -46,7 +46,7 @@ Klasikleşmiş robotik eğitiminin dışına çıkarak robotik eğitiminde çocu
 **Future Vision** kütüphanesinin **iPhone** modülü ve mobil uygulama ile iPhone telefonunuzun gözlemsel donanımları olan flaş, ekran parlaklığı ve hoparlörün ses şiddetini kontrol edebilirsiniz. Ayrıca, ekran parlaklığı, hoparlör ses şiddeti oranı ve sesi yükseltme veya alçaltma tuşlarına basılma verilerini bilgisayarınızda görebilir ve bu verilere göre Arduino veya Raspberry Pi kartınızı kontrol edebilirsiniz veya Arduino ve Raspberry Pi ile örneğin butona basarak telefonunuzun flaşını kontrol edebilirsiniz.
 
 
-# Modüllerin Kullanımı <img src='https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif' width="40"> 
+# Modüllerin Kullanımı <img loading="eager" src='https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif' width="40"> 
 
 ## Arduino
 
@@ -69,7 +69,7 @@ uno.off(pin=7)
 **LED bağlantıları aşağıdaki gibidir.**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/led1.png"><br>
+  <img loading="eager" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/led1.png"><br>
 </div>
 
 ### RGB Led Kontrollü
@@ -110,7 +110,7 @@ uno.wait(1)
 **RGB LED bağlantıları aşağıdaki gibidir.**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/rgb_led_pin.png"><br>
+  <img loading="eager" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/rgb_led_pin.png"><br>
 </div>
 
 ### Buton Değeri Okuma
@@ -139,7 +139,7 @@ Terminal Çıktısı
 **Buton bağlantıları aşağıdaki gibidir.**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/button_pin1.png"><br>
+  <img loading="eager" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/button_pin1.png"><br>
 </div>
 
 ### Led Matrix Kontrollü
@@ -196,7 +196,7 @@ for i in sign_list:
 **Led Matrix bağlantıları aşağadaki gibidir.**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/led_matrix1.png"><br>
+  <img loading="eager" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/led_matrix1.png"><br>
 </div>
 
 ## Raspberry Pi
@@ -452,7 +452,7 @@ Finger List:  [0, 0, 0, 0, 0] Hand Status:  False
 ```
 
 <div align="center">
-  <img loading="eager" / "eager" width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/default_hand_detection.gif?raw=true"><br>
+  <img loading="eager" width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/default_hand_detection.gif?raw=true"><br>
 </div>
 
 <br>
