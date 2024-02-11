@@ -199,7 +199,7 @@ Led Matrix bağlantıları aşağadaki gibidir.
   <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/led_matrix1.png"><br>
 </div>
 
-# Raspberry Pi <img src='https://download.logo.wine/logo/Raspberry_Pi/Raspberry_Pi-Logo.wine.png' width="30"> 
+# Raspberry Pi <img src='https://download.logo.wine/logo/Raspberry_Pi/Raspberry_Pi-Logo.wine.png' width="60"> 
 
 
 #### Led açma ve kapatma
