@@ -48,7 +48,7 @@ Klasikleşmiş robotik eğitiminin dışına çıkarak robotik eğitiminde çocu
 
 # Modüllerin Kullanımı <img src='https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif' width="40"> 
 
-# Arduino
+## Arduino
 
 
 **Future Vision** kütüphanesinin Arduino Uno kartınızla doğru çalışabilmesi için [FutureVision-Arduino.ino](https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/FutureVision-Arduino/FutureVision-Arduino.ino) kodunu Arduino Uno kartınıza yüklemeniz gerekmektedir.
@@ -56,7 +56,7 @@ Klasikleşmiş robotik eğitiminin dışına çıkarak robotik eğitiminde çocu
 
 13, 12 ve 11 pinleri LED matrise ayrılmıştır, 10, 9, 8 pinleri RGB LED'e ayrılmıştır. Sadece 7, 6, 5, 4, 3, 2 pinlerini dijital çıkış olarak kullanabilirsiniz.
 
-#### Led açma ve kapatma
+### Led açma ve kapatma
 
 ```python
 from futurevision import arduino
@@ -72,7 +72,7 @@ LED bağlantıları aşağıdaki gibidir.
   <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/led1.png"><br>
 </div>
 
-#### RGB Led Kontrollü
+### RGB Led Kontrollü
 
 RGB LED'de gösterebileceğiniz renkler:
 
@@ -113,7 +113,7 @@ RGB LED bağlantıları aşağıdaki gibidir.
   <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/rgb_led_pin.png"><br>
 </div>
 
-#### Buton Değeri Okuma
+### Buton Değeri Okuma
 
 Butonların değerleri sadece analog pinlerden okunacak şekilde ayarlanmıştır. Döndürülen buton değeri {PIN} olarak verilecektir. Örneğin, A0 ve A3 pinlerine bağlı iki butonumuzun olduğunu düşünelim. A3 pinine üç kez bastığımızda ve A0 pinindeki butona iki kez bastığımızda terminal çıktısı aşağıdaki gibi olacaktır.
 
@@ -142,7 +142,7 @@ Buton bağlantıları aşağıdaki gibidir.
   <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/button_pin1.png"><br>
 </div>
 
-#### Led Matrix Kontrollü
+### Led Matrix Kontrollü
 
 Led Matrixin Pin Düzeni: DIN:13, CS:12, CLK:11
 
@@ -199,10 +199,10 @@ Led Matrix bağlantıları aşağadaki gibidir.
   <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/led_matrix1.png"><br>
 </div>
 
-# Raspberry Pi
+## Raspberry Pi
 
 
-#### Led açma ve kapatma
+### Led açma ve kapatma
 
 ```python
 from futurevision import raspberrypi
@@ -212,7 +212,7 @@ rpi.wait(1)
 rpi.off(14)
 ```
 
-#### RGB Led Kontrollü
+### RGB Led Kontrollü
 
 RGB LED'de gösterebileceğiniz renkler:
 
@@ -247,7 +247,7 @@ rpi.rgb_led("clear",14,15,18)
 rpi.wait(1)
 ```
 
-#### Buton Değeri Okuma
+### Buton Değeri Okuma
 
 Buton PULL UP olarak ayarlanmıştır.
 
@@ -268,7 +268,7 @@ Terminal Çıktısı
 Button Pressed
 ```
 
-#### Sense HAT LED Matrisinde Harf veya Sayı Gösterme
+### Sense HAT LED Matrisinde Harf veya Sayı Gösterme
 
 ```python
 from futurevision import raspberrypi
@@ -280,7 +280,7 @@ rpi.wait(1)
 rpi.clear()
 ```
 
-##### Yazı Rengi ve Arka Plan Rengi Değiştirme
+#### Yazı Rengi ve Arka Plan Rengi Değiştirme
 
 Sense HAT LED matrisinde seçebileceğiniz renklerin listesi:
 
@@ -307,7 +307,7 @@ rpi.wait(1)
 rpi.clear()
 ```
 
-#### Sense HAT LED Matrisinde Mesaj Gösterme
+### Sense HAT LED Matrisinde Mesaj Gösterme
 
 ```python
 from futurevision import raspberrypi
@@ -315,7 +315,7 @@ rpi=raspberrypi.RaspberryPi(sense_hat=True)
 rpi.show_message("Future Vision")
 ```
 
-##### Sense Hat Mesaj Gösterim Hızı Değiştirme
+#### Sense Hat Mesaj Gösterim Hızı Değiştirme
 
 ```python
 from futurevision import raspberrypi
@@ -323,7 +323,7 @@ rpi=raspberrypi.RaspberryPi(sense_hat=True)
 rpi.show_message("Future Vision",scroll_speed=0.2)
 ```
 
-#### Sense Hat Led Matris Boyama
+### Sense Hat Led Matris Boyama
 
 ```python
 from futurevision import raspberrypi
@@ -333,7 +333,7 @@ rpi.wait(1)
 rpi.clear()
 ```
 
-#### Sense Hat Led Matris İşaret Gösterme
+### Sense Hat Led Matris İşaret Gösterme
 
 Gösterebileceğiniz işaretler up, down, right, left, happy, unhappy, heart
 
@@ -347,7 +347,7 @@ for i in sign_list:
   rpi.clear()
 ```
 
-#### Sense Hat Sensörlerini Kullanma
+### Sense Hat Sensörlerini Kullanma
 
 ```python
 from futurevision import raspberrypi
@@ -379,7 +379,7 @@ Terminal Çıktısı
 174.1544422493143
 ```
 
-#### Sense Hat Joystick Butonuna Tıklanmayı Algılama
+### Sense Hat Joystick Butonuna Tıklanmayı Algılama
 
 ```python
 from futurevision import raspberrypi
@@ -400,7 +400,7 @@ True
 False
 ```
 
-#### Sense Hat Joystick Haraketleri
+### Sense Hat Joystick Haraketleri
 
 ```python
 from futurevision import raspberrypi
@@ -422,9 +422,9 @@ left
 middle
 ```
 
-<h1><strong>Vision</strong></h1>
+## Vision
 
-#### El Tespiti
+### El Tespiti
 
 ```python
 from futurevision import vision
@@ -457,7 +457,7 @@ Finger List:  [0, 0, 0, 0, 0] Hand Status:  False
 
 <br>
 
-##### El Çiziminin Rengini Değiştirme
+#### El Çiziminin Rengini Değiştirme
 
 ```python
 from futurevision import vision
@@ -477,7 +477,7 @@ while True:
 
 <br>
 
-##### El Çizimini Devredışı Bırakma
+#### El Çizimini Devredışı Bırakma
 
 ```python
 from futurevision import vision
@@ -491,7 +491,7 @@ while True:
     cv2.waitKey(1)
 ```
 
-##### İşaret dili oluşturma
+### İşaret dili oluşturma
 
 Listedeki indexlerin temsil ettiği parmaklar aşağıdaki resimdeki gibidir.
 
@@ -518,7 +518,7 @@ while True:
         cv2.waitKey(1)
 ```
 
-#### Duygu Tespiti
+### Duygu Tespiti
 
 ```python
 from futurevision import vision
@@ -559,7 +559,7 @@ img, emotion,th=vision.detect_emotion(img,threshold=0.040)
 
 <br>
 
-##### Yüz Çizimi ve Yazının Rengini Değiştirme
+#### Yüz Çizimi ve Yazının Rengini Değiştirme
 
 ```python
 from futurevision import vision
@@ -579,7 +579,7 @@ while True:
 
 <br>
 
-##### Yüz Çizimini Devre Dışı Bırakma
+#### Yüz Çizimini Devre Dışı Bırakma
 
 ```python
 from futurevision import vision
@@ -593,7 +593,7 @@ while True:
     cv2.waitKey(1)
 ```
 
-#### Anlık Yüz Sayaçı
+### Anlık Yüz Sayaçı
 
 ```python
 from futurevision import vision
@@ -629,7 +629,7 @@ Terminal Çıktısı
 
 <br>
 
-##### Anlık Yüz Sayaçı Çizimini Devre Dışı Bırakma
+#### Anlık Yüz Sayaçı Çizimini Devre Dışı Bırakma
 
 ```python
 from futurevision import vision
@@ -644,7 +644,7 @@ while True:
     cv2.waitKey(1)
 ```
 
-#### Renk Tanıma
+### Renk Tanıma
 
 Tanıyabildiği renkler: Kırmızı, Yeşil, Mavi
 
@@ -682,7 +682,7 @@ img,name,list=vision.detect_colors(img,threshold=500)
 
 <br>
 
-##### Çizim Rengini Değiştirme
+#### Çizim Rengini Değiştirme
 
 ```python
 from futurevision import vision
@@ -703,7 +703,7 @@ while True:
 
 <br>
 
-##### Çizimi devre dışı bırakma
+#### Çizimi devre dışı bırakma
 
 ```python
 from futurevision import vision
@@ -718,7 +718,7 @@ while True:
     cv2.waitKey(1)
 ```
 
-#### Göz kırpma algılama
+### Göz kırpma algılama
 
 Yüz tanımanın çalışabilmesi için yüz tanıma modelini indirmelisiniz.[shape_predictor_68_face_landmarks.dat](https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2)
 
@@ -765,7 +765,7 @@ img,EAR,status,time=vision.detect_blink(img,threshold=0.20)
 
 <br>
 
-##### Göz çizimini devre dışı bırakma
+#### Göz çizimini devre dışı bırakma
 
 ```python
 from futurevision import vision
@@ -782,7 +782,7 @@ while True:
     cv2.waitKey(1)
 ```
 
-#### Vücut Tespiti ve Analizi
+### Vücut Tespiti ve Analizi
 
 ```python
 from futurevision import vision
@@ -824,7 +824,7 @@ right değişkeni sol kolunuzun omzunuza yakınlık oranını döndürür.
 
 <br>
 
-##### Vücut Çizimini Devre Dışı Bırakma
+#### Vücut Çizimini Devre Dışı Bırakma
 
 ```python
 from futurevision import vision
@@ -839,7 +839,7 @@ while True:
     cv2.waitKey(1)
 ```
 
-#### Obje Tanıma
+### Obje Tanıma
 
 ```python
 from futurevision import vision
@@ -871,7 +871,7 @@ person
 
 <br>
 
-#### Yüz Tanıma
+### Yüz Tanıma
 
 Yüz tanımanın çalışabilmesi için yüz tanıma modelini indirmelisiniz.[shape_predictor_68_face_landmarks.dat](https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2)
 
@@ -922,7 +922,7 @@ while True:
     cv2.waitKey(1)
 ```
 
-#### Klavye Kontrollü
+### Klavye Kontrollü
 
 ```python
 from futurevision import vision
@@ -930,7 +930,7 @@ vision=vision.Vision()
 vision.press("a")
 ```
 
-#### Klavye ile Metin Yazma
+### Klavye ile Metin Yazma
 
 ```python
 from futurevision import vision
@@ -938,7 +938,7 @@ vision=vision.Vision()
 vision.write("future vision")
 ```
 
-#### Bilgisayarınızı Konuşturma
+### Bilgisayarınızı Konuşturma
 
 ```python
 from futurevision import vision
@@ -946,7 +946,7 @@ vision=vision.Vision()
 vision.speak("Future Vision")
 ```
 
-Dil Değiştirme
+#### Dil Değiştirme
 
 ```python
 from futurevision import vision
@@ -954,7 +954,7 @@ vision=vision.Vision()
 vision.speak("Merhaba",lang="tr")
 ```
 
-Dosya ismi değiştirme
+#### Dosya ismi değiştirme
 
 ```python
 from futurevision import vision
@@ -962,7 +962,7 @@ vision=vision.Vision()
 vision.speak("Future Vision",filename="test.mp3")
 ```
 
-#### Bilgisayarınızın Mikrofonunu kullanarak Ses şiddeti Ölçme
+### Bilgisayarınızın Mikrofonu ile Ses şiddeti Ölçme
 
 ```python
 from futurevision import vision
@@ -976,10 +976,10 @@ except KeyboardInterrupt:
     vision.stop_stream ()
 ```
 
-<h1><strong>iPhone</strong></h1>
+## iPhone
 
 <div align="center">
-<h4><b>App Store Linki ile İndirin</b><h/4><br><br>
+<h3><b>App Store Linki ile İndirin</b><h/3><br><br>
 <a href="https://apps.apple.com/tr/app/darwin-future-vision/id6476931869" target="_blank">
   <img src="https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white" alt="YouTube Logo" width="250">
 </a>
@@ -1017,13 +1017,13 @@ except KeyboardInterrupt:
   <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/8.PNG">
 </div>
 
-#### Uygulama Bölümleri ve Örnek Kodlar
+## Uygulama Bölümleri ve Örnek Kodlar
 
 <div align="center">
 <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/9.PNG"><br>
 </div>
 
-#### Settings
+### Settings
 
 Settings bölümünde, uygulamanın yazacağınız Python koduyla haberleşebilmesi için Python kodunuzun size vereceği IP adresi ve port bilgilerini kaydetmelisiniz.
 
@@ -1036,7 +1036,7 @@ Settings bölümünde, uygulamanın yazacağınız Python koduyla haberleşebilm
   <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/12.PNG"><br>
 </div>
 
-#### HWC
+### HWC
 
 Bu bölümde, **Future Vision** kütüphanesinin **iPhone** modülü ile yazacağınız kodlara göre iPhone telefonunuzun gözlemsel donanımlarını kontrol etme imkanını sunar. **flash_on()** ve **flash_off()** fonksiyonlarıyla Flaşı, **screen_brightness(value)** fonksiyonuyla Ekran Parlaklığını, **volume_intensity(value)** fonksiyonuyla Hoparlörün Ses Şiddetini kontrol etmenizi sağlar.
 
@@ -1044,7 +1044,7 @@ Bu bölümde, **Future Vision** kütüphanesinin **iPhone** modülü ile yazaca�
   <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/hwc.PNG">
 </div>
 
-#### CwH
+### CwH
 
 Bu bölümde **Future Vision** kütüphanesinin **iPhone** modülü ile yazacağınız kodlara göre iPhone telefonunuzun gözlemsel donanım bilgilerini python kodunuza bir liste olarak gönderir. Bu liste verisini **read_data()** fonksiyonu ile okuyabilirsiniz veriler arasında Ekran parlaklığı değeri Ses Şiddeti Değeri ve Telefonunuzun hangi ses tuşuna basıldığının verisini yer almaktadır örnek veri listesi:
 
@@ -1057,7 +1057,7 @@ Bu bölümde **Future Vision** kütüphanesinin **iPhone** modülü ile yazacağ
   <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/cwh.PNG">
 </div>
 
-#### LEDs
+### LEDs
 
 Bu bölümde **Future Vision** kütüphanesinin **iPhone** modülü ile yazacağınız kodlara göre uygulama içerisinde bulunan 5 adet led grafiğini kontrol etme imkanı sunar ve 5 adet ledin renklerini yeşil, mavi ve kirmizi olarak değiştirebilirsiniz. Uygulamadaki ledleri açmak için **led_on(pin)** kapatmak için **led_off(pin)** fonksiyonlarını kullanabilirsiniz.
 
@@ -1065,7 +1065,7 @@ Bu bölümde **Future Vision** kütüphanesinin **iPhone** modülü ile yazacağ
   <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/leds.PNG">
 </div>
 
-#### SEND&SHOW
+### SEND&SHOW
 
 Bu bölümde **future vision** kütüphanesinin **iPhone** modülü ile yazacağınız kodlara göre uygulama içerisindeki input'a gireceğiniz verileri bilgisayarınıza gönderebilir veya bilgisayarınızdan mobil uygulamaya veri gönderebilirsiniz. mobil uygulamaya veri göndermek için **send_data(data)** mobil uygulamanın göndereceği verileri okumak için **read_data()** fonksiyonlarını kullanabilirsiniz.
 
@@ -1073,11 +1073,11 @@ Bu bölümde **future vision** kütüphanesinin **iPhone** modülü ile yazacağ
   <img style="width:300px;" src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/sendshow.PNG">
 </div>
 
-#### Örnek Kodlar
+## Örnek Kodlar
 
-#### HWC
+### HWC
 
-##### Flaş Kontrollü
+#### Flaş Kontrollü
 
 ```python
 from futurevision import iphone
@@ -1093,7 +1093,7 @@ while True:
   <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/flash_hwc.gif?raw=true"><br>
 </div>
 
-##### Ekran Parlaklığı Kontrollü
+#### Ekran Parlaklığı Kontrollü
 
 ```python
 from futurevision import iphone
@@ -1109,7 +1109,7 @@ while True:
   <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/sb_hwc.gif?raw=true"><br>
 </div>
 
-##### Ses Şiddeti Kontrollü
+#### Ses Şiddeti Kontrollü
 
 ```python
 from futurevision import iphone
@@ -1125,9 +1125,9 @@ while True:
   <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/si_hwc.gif?raw=true"><br>
 </div>
 
-#### CwH
+### CwH
 
-##### iPhone Gözlemsel Donanımının Verilerini Okuma
+#### iPhone Gözlemsel Donanımının Verilerini Okuma
 
 ```python
 from futurevision import iphone
@@ -1148,7 +1148,7 @@ while True:
   <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/cwh_data.gif?raw=true"><br>
 </div>
 
-#### LEDs
+### LEDs
 
 ```python
 from futurevision import iphone
@@ -1178,7 +1178,7 @@ while True:
   <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/colored_leds_data.gif?raw=true"><br>
 </div>
 
-#### Read Data
+### Read Data
 
 ```python
 from futurevision import iphone
@@ -1192,7 +1192,7 @@ while True:
   <img width="700"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/read_data.gif?raw=true"><br>
 </div>
 
-#### Send Data
+### Send Data
 
 ```python
 from futurevision import iphone
