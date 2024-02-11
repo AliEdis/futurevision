@@ -12,11 +12,6 @@
 
 ---
 
-<div style="display: flex; align-items: center;">
-  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire" width="40">
-  <h1 style="font-family: 'Helvetica', sans-serif; margin-left: 10px;">Future Vision : Robotik Eğitiminde Yeni Bir Çağ</h1>
-</div>
-
 # <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire" width="40" /> Future Vision : Robotik Eğitiminde Yeni Bir Çağ
 
 
