@@ -66,7 +66,7 @@ uno.wait(1)
 uno.off(pin=7)
 ```
 
-LED bağlantıları aşağıdaki gibidir.
+**LED bağlantıları aşağıdaki gibidir.**
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/led1.png"><br>
@@ -107,7 +107,7 @@ uno.rgb_led("clear")
 uno.wait(1)
 ```
 
-RGB LED bağlantıları aşağıdaki gibidir.
+**RGB LED bağlantıları aşağıdaki gibidir.**
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/rgb_led_pin.png"><br>
@@ -136,7 +136,7 @@ Terminal Çıktısı
 0
 ```
 
-Buton bağlantıları aşağıdaki gibidir.
+**Buton bağlantıları aşağıdaki gibidir.**
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/button_pin1.png"><br>
@@ -193,7 +193,7 @@ for i in sign_list:
   uno.show_led_matrix("clear")
 ```
 
-Led Matrix bağlantıları aşağadaki gibidir.
+**Led Matrix bağlantıları aşağadaki gibidir.**
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/led_matrix1.png"><br>
