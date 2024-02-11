@@ -15,7 +15,7 @@
 # <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40" /> Future Vision : Robotik Eğitiminde Yeni Bir Çağ
 
 
-## Nedir
+# Nedir
 
 
 
@@ -51,6 +51,7 @@ Klasikleşmiş robotik eğitiminin dışına çıkarak robotik eğitiminde çocu
 <h3><strong>Arduino</strong></h3>
 
 **Future Vision** kütüphanesinin Arduino Uno kartınızla doğru çalışabilmesi için [FutureVision-Arduino.ino](https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/FutureVision-Arduino/FutureVision-Arduino.ino) kodunu Arduino Uno kartınıza yüklemeniz gerekmektedir.
+
 
 13, 12 ve 11 pinleri LED matrise ayrılmıştır, 10, 9, 8 pinleri RGB LED'e ayrılmıştır. Sadece 7, 6, 5, 4, 3, 2 pinlerini dijital çıkış olarak kullanabilirsiniz.
 
