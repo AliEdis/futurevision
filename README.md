@@ -12,7 +12,7 @@
 
 ---
 
-<h1><strong>futurevision: Robotik eğitiminde yeni bir çağ</strong></h1>
+<h1><strong>Future Vision: Robotik eğitiminde yeni bir çağ</strong></h1>
 
 ## Nedir
 
