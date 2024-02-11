@@ -677,7 +677,7 @@ img,name,list=vision.detect_colors(img,threshold=500)
 ```
 
 <div align="center">
-  <img width="800"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/color.gif?raw=true"><br>
+  <img width="800"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/color.gif?raw=true"><br>
 </div>
 
 <br>
@@ -698,7 +698,7 @@ while True:
 ```
 
 <div align="center">
-  <img width="800"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/custom_color.gif?raw=true"><br>
+  <img width="800"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/custom_color.gif?raw=true"><br>
 </div>
 
 <br>
@@ -760,7 +760,7 @@ img,EAR,status,time=vision.detect_blink(img,threshold=0.20)
 ```
 
 <div align="center">
-  <img width="800"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/eye_blink.gif?raw=true"><br>
+  <img width="800"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/eye_blink.gif?raw=true"><br>
 </div>
 
 <br>
@@ -819,7 +819,7 @@ right değişkeni sol kolunuzun omzunuza yakınlık oranını döndürür.
 ```
 
 <div align="center">
-  <img width="800"  loading="eager" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/body.gif?raw=true"><br>
+  <img width="800"  loading="lazy" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/body.gif?raw=true"><br>
 </div>
 
 <br>
