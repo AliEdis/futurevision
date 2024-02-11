@@ -466,7 +466,7 @@ while True:
 ```
 
 <div align="center">
-  <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/custom_hand_detection.gif?raw=true"><br>
+  <img width="500" src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/custom_hand_detection.gif?raw=true"><br>
 </div>
 
 <br>
