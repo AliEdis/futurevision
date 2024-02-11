@@ -1149,7 +1149,7 @@ while True:
   <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/leds_data.gif?raw=true"><br>
 </div>
 
-**Change Color**
+**Çizim Rengini Değiştirme**
 
 <div align="center">
   <img src="https://github.com/AliEdis/futurevision/blob/main/README-IMAGE/colored_leds_data.gif?raw=true"><br>
