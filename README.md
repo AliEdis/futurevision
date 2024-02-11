@@ -12,7 +12,15 @@
 
 ---
 
-<h1><strong>Future Vision: Robotik eğitiminde yeni bir çağ</strong></h1>
+<div style="display: flex; align-items: center;">
+  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire" width="40">
+  <h1 style="font-family: 'Helvetica', sans-serif; margin-left: 10px;">Future Vision : Robotik Eğitiminde Yeni Bir Çağ</h1>
+</div>
+
+# <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire" width="40" /> Future Vision : Robotik Eğitiminde Yeni Bir Çağ
+
+
+
 
 ## Nedir
 
@@ -972,6 +980,14 @@ except KeyboardInterrupt:
 
 <h3><strong>iPhone</strong></h3>
 
+<div align="center">
+<h4><b>App Store Linki ile İndirin</b><h/4><br><br>
+<a href="https://apps.apple.com/tr/app/darwin-future-vision/id6476931869" target="_blank">
+  <img src="https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white" alt="YouTube Logo" width="250">
+</a>
+<br>
+<h4><b>VEYA</b></h4>
+</div>
 <p style="text-align: center;"><b>App Store Açın</b></p>
 
 <div align="center">
@@ -1192,16 +1208,15 @@ while True:
 </div>
 
 
-## Modüllerin birlikte kullanımlarının anlatımı için:
+## Sosyal Medya
 
 <a href="https://www.youtube.com/channel/UCZwR4LvkgdLl-T0cAf19b7A" target="_blank">
-  <img src="https://user-images.githubusercontent.com/74038190/235294007-de441046-823e-4eff-89bf-d4df52858b65.gif" alt="YouTube Logo" width="150">
+  <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="YouTube Logo" width="250">
 </a>
 
-## İletişim
 
 <a href="https://www.linkedin.com/in/ali-edis-68267820a/" target="_blank">
-  <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="150">
+  <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" width="250">
 </a>
 
 
