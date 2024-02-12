@@ -48,7 +48,8 @@ With the **iPhone** module of the **Future Vision** library and the mobile app, 
 
 # Using Modules <img  src='https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif' width="40"> 
 
-## Arduino
+## Arduino <img  src='https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif' width="40"> 
+
 
 
 In order for the **Future Vision** library to work correctly with your Arduino Uno board, you need to install the [FutureVision-Arduino.ino](https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/FutureVision-Arduino/FutureVision-Arduino.ino) code on your Arduino Uno board.
@@ -202,7 +203,8 @@ for i in sign_list:
   <img  src="https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/led_matrix1.png"><br>
 </div>
 
-## Raspberry Pi
+## Raspberry Pi <img  src='https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif' width="40"> 
+
 
 
 ### Led on and off
@@ -425,7 +427,8 @@ left
 middle
 ```
 
-## Vision
+## Vision <img  src='https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif' width="40"> 
+
 
 ### Hand Detection
 
@@ -534,7 +537,7 @@ cap=cv2.VideoCapture(0)
 while True:
     _,img=cap.read()
     img, emotion,th=vision.detect_emotion(img)
-    print(emotion)
+    print(emotion,th)
     cv2.imshow("Future Vision",img)
     cv2.waitKey(1)
 ```
@@ -976,6 +979,12 @@ vision.speak("Future Vision",filename="test.mp3")
 
 ### How to Measure Sound Intensity with Your Computer Microphone
 
+To run this code, you need to run this command in the terminal.
+
+```sh
+pip3 install pyaudio
+``` 
+
 ```python
 from futurevision import vision
 vision=vision.Vision ()
@@ -988,7 +997,8 @@ except KeyboardInterrupt:
     vision.stop_stream ()
 ```
 
-## iPhone
+## iPhone <img  src='https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif' width="40"> 
+
 
 <div align="center">
 <h3><b>You can download the app by pressing the App Store logo.</b><h/3><br><br>
