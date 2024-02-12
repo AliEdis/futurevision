@@ -6,7 +6,7 @@ with open('README.md') as readme_file:
 
 setup(
     name="futurevision", 
-    version="0.0.8",  
+    version="0.1.0",  
     description="Library that combines Robotics Hardware, iPhone and AI for Everyone",  
     long_description=readme,
     long_description_content_type="text/markdown",
@@ -53,7 +53,6 @@ setup(
         'flask',
         'dlib',
         'gtts',
-        'pyaudio',
     ],
     license="MIT",
     project_urls={
@@ -71,6 +70,7 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3 :: Only",
         "License :: OSI Approved :: MIT License",
+        "Topic :: Education",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Topic :: Multimedia :: Sound/Audio",
         "Topic :: Software Development :: Libraries :: Python Modules",
