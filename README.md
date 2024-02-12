@@ -52,7 +52,7 @@ With the **iPhone** module of the **Future Vision** library and the mobile app, 
 
 
 
-In order for the **Future Vision** library to work correctly with your Arduino Uno board, you need to install the [FutureVision-Arduino.ino](https://raw.githubusercontent.com/AliEdis/futurevision/main/README-IMAGE/FutureVision-Arduino/FutureVision-Arduino.ino) code on your Arduino Uno board.
+In order for the **Future Vision** library to work correctly with your Arduino Uno board, you need to install the [FutureVision-Arduino.ino](https://github.com/AliEdis/futurevision/blob/main/FutureVision-Arduino/FutureVision-Arduino.ino) code on your Arduino Uno board.
 
 
 Pins 13, 12 and 11 are dedicated to LED matrix, pins 10, 9, 8 are dedicated to RGB LED. You can only use pins 7, 6, 5, 4, 3, 2 as digital outputs.
