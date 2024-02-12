@@ -1216,14 +1216,14 @@ while True:
   <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" width="150">
 </a>
 
-<br>
-<hr>
+<br><br>
+
 <a href="https://www.linkedin.com/in/ali-edis-68267820a/" target="_blank">
   <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" width="150">
 </a>
 
-<br>
-<hr>
+<br><br>
+
 <a href="https://linktr.ee/aliedis" target="_blank">
   <img src="https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white" width="150">
 </a>
