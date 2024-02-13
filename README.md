@@ -8,7 +8,7 @@
 <br>
 <br>
 <img src="https://forthebadge.com/images/badges/made-with-markdown.svg" width="230" height="30" alt="made with markdown badge">
-
+<br>
 [![Downloads](https://pepy.tech/badge/futurevision)](https://pepy.tech/project/futurevision)
 [![Downloads](https://pepy.tech/badge/futurevision/month)](https://pepy.tech/project/futurevision)
 [![Downloads](https://pepy.tech/badge/futurevision/week)](https://pepy.tech/project/futurevision)
