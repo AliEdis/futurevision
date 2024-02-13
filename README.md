@@ -904,16 +904,9 @@ while True:
 ```
 
 ```sh
-['Ali Edis']
-['Ali Edis']
-['Carl Sagan', 'Ali Edis']
-['Carl Sagan', 'Ali Edis']
-['Carl Sagan', 'Ali Edis']
-['Carl Sagan', 'Ali Edis']
 ['unknown', 'Ali Edis']
 ['unknown', 'Ali Edis']
 ['unknown', 'Ali Edis']
-['Ali Edis']
 ```
 
 <div align="center">
