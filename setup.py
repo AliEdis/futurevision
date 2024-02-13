@@ -6,7 +6,7 @@ with open('README.md') as readme_file:
 
 setup(
     name="futurevision", 
-    version="0.1.0",  
+    version="0.1.4",  
     description="Library that combines Robotics Hardware, iPhone and AI for Everyone",  
     long_description=readme,
     long_description_content_type="text/markdown",
